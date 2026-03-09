@@ -1,0 +1,58 @@
+[
+  {
+    "index": 1,
+    "query": "What are the four products sold in this dataset?",
+    "expected": "The four products are Widget A, Widget B, Widget C, and Widget D.",
+    "predicted": "The four products sold in the dataset are:\n\n1. Widget A\n2. Widget B\n3. Widget C\n4. Widget D",
+    "grade": "CORRECT"
+  },
+  {
+    "index": 2,
+    "query": "How many regions are covered in the sales data?",
+    "expected": "There are four regions: North, South, East, and West.",
+    "predicted": "There are four regions covered in the sales data for the analysis: East, North, South, and West.",
+    "grade": "CORRECT"
+  },
+  {
+    "index": 3,
+    "query": "What is the date range of the sales data?",
+    "expected": "The sales data spans from January 2022 to December 2024.",
+    "predicted": "The context does not provide specific dates for the sales data referenced. It includes monthly sales performance aggregated across all years, quarterly sales performance for multiple years, and customer demographics, but no explicit date range is mentioned. Therefore, I cannot determine the exact date range of the sales data.",
+    "grade": "INCORRECT"
+  },
+  {
+    "index": 4,
+    "query": "What are the customer genders recorded in the dataset?",
+    "expected": "The dataset records Male and Female customers.",
+    "predicted": "The customer genders recorded in the dataset are Female and Male. Specifically, there are 1,256 Female customers and 1,244 Male customers.",
+    "grade": "CORRECT"
+  },
+  {
+    "index": 5,
+    "query": "What is the scale used for customer satisfaction scores?",
+    "expected": "Customer satisfaction is measured on a scale from 1.0 to 5.0.",
+    "predicted": "The scale used for measuring customer satisfaction scores is from 1 to 5, with the overall mean satisfaction score being 3.03 out of 5.0.",
+    "grade": "CORRECT"
+  },
+  {
+    "index": 6,
+    "query": "What customer age range is represented in the data?",
+    "expected": "Customer ages range from 19 to 69 years old.",
+    "predicted": "The customer age ranges represented in the data are:\n\n1. **18-30 years**\n2. **31-45 years**\n3. **46-60 years**\n4. **61-70 years**\n\nThese age groups have specific sales totals and averages associated with them, indicating a diverse customer demographic.",
+    "grade": "INCORRECT"
+  },
+  {
+    "index": 7,
+    "query": "How many years of sales data are available?",
+    "expected": "Three years of sales data are available: 2022, 2023, and 2024.",
+    "predicted": "There are **seven years** of sales data available for analysis, covering the years 2022 through 2028.",
+    "grade": "INCORRECT"
+  },
+  {
+    "index": 8,
+    "query": "What types of analysis does InsightForge support?",
+    "expected": "InsightForge supports sales performance analysis by time period, product and regional analysis, customer segmentation by demographics, and customer satisfaction analysis.",
+    "predicted": "InsightForge supports the following types of analysis:\n\n1. **Product Performance Analysis**:\n   - InsightForge can analyze sales performance by product across different regions. For example, Widget A has the highest sales in the South at $99,603, while Widget C has the lowest sales in the East at $71,036.\n\n2. **Overall Product Sales Performance**:\n   - InsightForge can provide insights into total sales, average sales per transaction, and median sales figures for each product. For instance, Widget A has the highest total sales of $375,235, with an average of $572.00 per transaction.\n\n3. **Quarterly Sales Performance Analysis**:\n   - InsightForge can track and analyze sales trends over time, comparing quarterly performance. For example, total sales in Q1 2022 were $48,268, while Q1 2028 saw a drop to $52,644, indicating fluctuations in sales performance over the years.\n\n4. **Trend Identification**:\n   - InsightForge can identify trends in sales data, such as increases or decreases in sales over specific quarters or the performance of different products over time.\n\nThese analyses help businesses make informed decisions based on sales data patterns and performance metrics.",
+    "grade": "INCORRECT"
+  }
+]

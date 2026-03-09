@@ -1,0 +1,21 @@
+# Environment variables (contains API keys - NEVER commit this)
+.env
+README_API.txt
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Claude settings
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
